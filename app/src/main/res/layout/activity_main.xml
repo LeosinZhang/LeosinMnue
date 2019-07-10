@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg3"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <com.example.leosinmenu.CircleMenuLayout
+        android:id="@+id/id_menulayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/circle_bg3"
+        android:padding="100dp">
+
+        <RelativeLayout
+            android:id="@id/id_circle_menu_item_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_choose"
+                android:layout_width="60.0dip"
+                android:layout_height="60.0dip"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/arrow" />
+        </RelativeLayout>
+    </com.example.leosinmenu.CircleMenuLayout>
+
+</LinearLayout>
